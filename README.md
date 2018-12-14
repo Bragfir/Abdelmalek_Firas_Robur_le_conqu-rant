@@ -15,9 +15,9 @@ Maintenant que j'ai en ma possession le fichier au format brut, je devais le rem
 Cette ouevre comporte 18 chapitres que j'ai pris en considération pour réaliser le formatage en suivant la documentation d'Iramuteq. La synataxe est comme suit :
 
 **** *chapitre1
-**** *chapitre2
-...
-**** *chapitre18
+&nbsp; **** *chapitre2
+&nbsp; ...
+&nbsp; **** *chapitre18
 
 Puis je l'ai sauvegardé sous le nom Jules_Verne_Robur_le_conquérant.txt.
 
