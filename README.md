@@ -7,18 +7,30 @@
 
 Afin de pouvoir étudier l'ouvrage de Jules Verne "**Robur le conquérant**" il fallait récupérer une version textuelle modulable selon le besoin. Pour ce faire j'ai dû me servir de la version proposée par [wikisource](https://fr.wikisource.org/wiki/Robur_le_conqu%C3%A9rant) qui fourni le texte intégral en deux formats (TXT et PDF). J'ai aussi retrouvé d'autres ressources sur [gutenberg](http://www.gutenberg.org/ebooks/5126), notamment d'autres formats (EPUB et Kindle).
 
-> Il faut dire qu'avoir la version textuelle au format txt m'a vraiment facilité la tâche car cela m'évite de chercher des solutions pour transformer des fichiers au format (pdf, epub, doc, etc.) en txt, qui est suceptible de contenir plusieurs fautes et/ou erreurs. 
+> Il faut dire qu'avoir la version textuelle au format txt m'a vraiment facilité la tâche car cela m'évite de chercher des solutions pour transformer des fichiers au format (pdf, epub, doc, etc.) en txt, qui suite à ce traitement pourra être suceptible de contenir plusieurs fautes et/ou erreurs. 
 
 
-Maintenant que j'ai en ma possession le fichier au format brut, je devais le remettre en forme selon les exigeances de l'outil iramuteq. Le fichier source en question était bien formaté et structuré donc il restait j'ai cependant pris le soin d'en faire une relecture minutieuse, ce qui m'a également permis de découvrir cette œuvre bouleversante de George Sand, que je n'avais jamais lue avant cet exercice.
+Maintenant que j'ai en ma possession le fichier au format brut, je devais le remettre en forme selon les exigeances de l'outil iramuteq. Le fichier source en question était structuré mais je devais séparer les chapitres et surtout supprimer les textes qui ne sont pas en rapport direct avec l’œuvre et son contenu. Un nétoyage nécessaire pour une limitation du bruit et une meilleure analyse.
 
 Cette ouevre comporte 18 chapitres que j'ai pris en considération pour réaliser le formatage en suivant la documentation d'Iramuteq. La synataxe est comme suit :
 
-**** *chapitre1
-&nbsp; **** *chapitre2
-&nbsp; ...
-&nbsp; **** *chapitre18
+> **** *chapitre1
 
-Puis je l'ai sauvegardé sous le nom Jules_Verne_Robur_le_conquérant.txt.
+> **** *chapitre2
 
-![](img/zipf.png)
+> ...
+
+> **** *chapitre18
+
+    **** : indique le point de départ et la nature du contenu du corpus, dans notre cas c'est un texte.
+    * : indique la variable qui va définir les différentes parties du coprus.
+
+
+Puis je l'ai sauvegardé sous le nom **Jules_Verne_Robur_le_conquérant.txt**. Il ne reste plus qu'à exploiter ce corpus dans l'outil iramuteq.
+
+Une fois sur le logiciel et après avoir importer le texte j'ai obtenu ce tableau avec notamment des informations sur le nombre d'occurences et de parties présente dans l'ensemble du texte :
+
+
+
+![](img/Capture-StatCorpus.png)
+
