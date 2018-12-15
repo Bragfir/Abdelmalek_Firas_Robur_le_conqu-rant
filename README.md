@@ -43,7 +43,7 @@ On peut remarquer déjà depuis ce logarithme qu'il y une forte densitée de mot
 
 Pour commencer, j'ai réalisé une première analyse en nuage de mots afin d'avoir une représentation graphique des mots aux occurrences les plus élevées. Pour que cette représentation soir lisible et plus agréable, j'ai réduit le champs de visualisation à seulement les mots qui on une fréquence d'apparition plus que 20 fois.
 
-![](img/Capture-StatCorpus.png)
+![](img/Graph-nuage_actives.png)
 
 Pour le coté analytique, je trouve que cette représentation n'est pas utile et peu pertinante si on cherche plus de sens et de profendeur.
 
@@ -51,9 +51,30 @@ Pour le coté analytique, je trouve que cette représentation n'est pas utile et
 
 En réduisant la taille de quelques facteurs et après multiples essais j'ai réussi à obtenir cette représentation de données plus ou moins lisible, qui expose 5 grand blocs qui s'intercectent entre-eux et qui tournent autour des personnages principaux de l'oeuvre avec la présence remarquable de quelques mots tel que "Prudent", "aeronef", "heure", "hélice", "appareil", etc.
 
+![](img/Graph-similitudes.png)
+
 #### classification Reinert et son AFC
 
 Pour voir plus clair j'ai réalisé une classification Reinert qui nous permettra d'avoir des catégories selon une hiérarchie descendante.
 
+![](img/dendrogramme_1.png)
 
-#### Analyse factorielle des correspondances
+Cette classification montre plus de détails et donne plus de sens à l'analyse de similitudes réalisée auparavant. Cela confirme ce qui était dit concernant les mots les plus influent dans le texte, dont je cite les principaux : robur, tom, ingénieur, uncle, prudent, phil, evancs, air, hélice, ville, heure.
+
+![](img/AFC2DL.png)
+
+En plus de ces classe, on peut aussi représenter le résultats sous forme de AFC en deux dimensions. Une méthode qui nous indique quelles classes sont rapprocher et similaires à d'autres. Dans notre exemple, on constate que les classes sont regroupés en couplet : 
+
+- 1 et 6
+- 4 et 3
+- 2 et 5
+
+#### Autre analyse factorielle des correspondances
+
+On peut remarquer une certaine densité de mots ayant une forte fréquence d'apparition surtout à partir du milieu de l'ouvrage, plus précisément à partir du 6ème chapitre jusqu'au 16ème chapitre. Les couleurs présentes dans le graphique aide à la distinction de chaque catégorie de mots même si la représensation n'est pas optimale et claire.
+
+![](img/graph_afc_1.png)
+![](img/afcf_col.png)
+
+
+La réponse à la question du 6ème point se trouve en suivant ce Lien [en quoi la digitalisation de l'oeuvre permet-elle d'envisager de nouvelles possibilités en Humanités Digitales ?]()
