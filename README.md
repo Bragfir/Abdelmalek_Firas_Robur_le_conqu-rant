@@ -79,5 +79,5 @@ On peut remarquer une certaine densité de mots ayant une forte fréquence d'app
 
 #### La question
 
-La réponse à la question du 6ème point se trouve en suivant ce Lien [en quoi la digitalisation de l'oeuvre permet-elle d'envisager de nouvelles possibilités en Humanités Digitales ?]()
+La réponse à la question du 6ème point se trouve en suivant ce lien : [en quoi la digitalisation de l'oeuvre permet-elle d'envisager de nouvelles possibilités en Humanités Digitales ?](Question-digitalisation-oeuvre.md)
 
