@@ -53,7 +53,7 @@ En réduisant la taille de quelques facteurs et après multiples essais j'ai ré
 
 ![](img/Graph-similitudes.png)
 
-#### classification Reinert et son AFC
+#### Classification Reinert et son AFC
 
 Pour voir plus clair j'ai réalisé une classification Reinert qui nous permettra d'avoir des catégories selon une hiérarchie descendante.
 
